@@ -2,6 +2,7 @@
 # dbt_project.yml · Curso de Data Engineering (dbt + Snowflake) · Cívica
 # =============================================================================
 # Configuración central del proyecto: nombre, rutas y configuración por
+# defecto de cada tipo de recurso. Las configs se heredan por carpeta y un
 # modelo puede sobrescribirlas con {{ config(...) }}.
 # El prefijo + indica que la clave es una config y no una subcarpeta.
 # =============================================================================
