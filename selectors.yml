@@ -12,12 +12,6 @@ selectors:
       method: tag
       value: silver
 
-  - name: capa_staging
-    description: Todos los modelos de Staging (tag heredado de dbt_project.yml).
-    definition:
-      method: tag
-      value: staging
-
   - name: gold_marketing
     description: El mart de Marketing y todo lo que necesita para construirse.
     definition:
